@@ -15,7 +15,7 @@ namespace WpfAppTest
     public class ViewEnemy : ViewAbstract
     {
         public Border _borderEnemy;
-        protected Grid _parentPanel; 
+        public Grid _parentPanel;
 
         public ViewEnemy(Grid parentPanel) : base()
         {

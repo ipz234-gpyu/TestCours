@@ -18,7 +18,7 @@ namespace WpfAppTest
         public Controller(MainWindow main)
         {
             this.main = main;
-            spawnOpponent = new SpawnOpponent(main, 3);
+            spawnOpponent = new SpawnOpponent(main, 5);
             View = new ViewHealthPlyer(main.MainScrren);
             ModelEnemy.PlayerStatusSab += View.viewHealth;
         }
